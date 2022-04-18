@@ -27,12 +27,12 @@ window.onload = function() {
     myString +
     "</h1>" +
     "<h1>" +
-    who[getRandomInt(4)] +
+    who[getRandomInt(who.length)] +
     " " +
-    action[getRandomInt(4)] +
+    action[getRandomInt(action.length)] +
     " " +
-    what[getRandomInt(3)] +
+    what[getRandomInt(what.lenght)] +
     " " +
-    when[getRandomInt(5)] +
+    when[getRandomInt(when.lenght)] +
     "</h1>";
 };
